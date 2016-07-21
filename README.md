@@ -1,5 +1,7 @@
 # Macaulay Duration JS
 
+[![Build Status](https://travis-ci.org/supasate/Macaulay-Duration-JS.svg?branch=master)](https://travis-ci.org/supasate/Macaulay-Duration-JS)
+
 A library to calculate the [Macaulay Duration](http://www.investopedia.com/terms/m/macaulayduration.asp) and [Modified Duration](http://www.investopedia.com/terms/m/modifiedduration.asp) in Node.js
 
 ## Installation
