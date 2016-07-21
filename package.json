@@ -1,0 +1,35 @@
+{
+  "name": "macaulay-duration",
+  "version": "1.0.0",
+  "description": "A library to calculate the Macaulay Duration and Modified Duration in Node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supasate/Macaulay-Duration-JS.git"
+  },
+  "keywords": [
+    "bond",
+    "duration",
+    "macaulay",
+    "duration",
+    "modified",
+    "duration"
+  ],
+  "author": "Supasate Choochaisri",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/supasate/Macaulay-Duration-JS/issues"
+  },
+  "homepage": "https://github.com/supasate/Macaulay-Duration-JS#readme"
+}
