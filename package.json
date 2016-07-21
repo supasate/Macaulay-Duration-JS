@@ -1,6 +1,6 @@
 {
   "name": "macaulay-duration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to calculate the Macaulay Duration and Modified Duration in Node.js",
   "main": "index.js",
   "directories": {
