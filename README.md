@@ -47,8 +47,8 @@ var couponRate = 0.05; // 5%
 var maturity = 5; // 5 years
 var years = modifiedDuration(faceValue, couponRage, maturity);
 
-console.log('The Modified Macaulay Duration is ' + years + ' years');
-// The Modified Macaulay Duration is 4.546 years
+console.log('The Modified Duration is ' + years + ' years');
+// The Modified Duration is 4.546 years
 ```
 
 ES6
@@ -61,8 +61,8 @@ const couponRate = 0.05 // 5%
 const maturity = 5 // 5 years
 const years = modifiedDuration(faceValue, couponRate, maturity)
 
-console.log('The Modified Macaulay Duration is ' + years + ' years')
-// The Modified Macaulay Duration is 4.546 years
+console.log('The Modified Duration is ' + years + ' years')
+// The Modified Duration is 4.546 years
 ```
 
 ## Contributing
