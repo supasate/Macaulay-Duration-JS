@@ -19,12 +19,9 @@
     "url": "git+https://github.com/supasate/Macaulay-Duration-JS.git"
   },
   "keywords": [
-    "bond",
-    "duration",
-    "macaulay",
-    "duration",
-    "modified",
-    "duration"
+    "bond duration",
+    "macaulay duration",
+    "modified duration"
   ],
   "author": "Supasate Choochaisri",
   "license": "Apache-2.0",
