@@ -19,7 +19,7 @@ var duration = require('macaulay-duration').duration;
 var faceValue = 10000; // 10000 dollars
 var couponRate = 0.05; // 5%
 var maturity = 5; // 5 years
-var years = duration(faceValue, couponRage, maturity);
+var years = duration(faceValue, couponRate, maturity);
 
 console.log('The Macaulay Duration is ' + years + ' years');
 // The Macaulay Duration is 4.546 years
@@ -47,7 +47,7 @@ var modifiedDuration = require('macaulay-duration').modifiedDuration;
 var faceValue = 10000; // 10000 dollars
 var couponRate = 0.05; // 5%
 var maturity = 5; // 5 years
-var years = modifiedDuration(faceValue, couponRage, maturity);
+var years = modifiedDuration(faceValue, couponRate, maturity);
 
 console.log('The Modified Duration is ' + years + ' years');
 // The Modified Duration is 4.546 years
