@@ -1,4 +1,6 @@
-var duration = function(faceValue, couponRate, maturity) {
+"use strict";
+
+const duration = function(faceValue, couponRate, maturity) {
   let time;
   let sum = 0;
 
@@ -17,7 +19,7 @@ var duration = function(faceValue, couponRate, maturity) {
   return sum;
 };
 
-var modifiedDuration = function(faceValue, couponRate, maturity) {
+const modifiedDuration = function(faceValue, couponRate, maturity) {
   const macaulayDuration = duration(faceValue, couponRate, maturity);
   const yieldToMaturity = couponRate;
 

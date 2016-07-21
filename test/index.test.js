@@ -1,3 +1,5 @@
+"use strict";
+
 var expect = require('chai').expect;
 var duration = require('../src').duration;
 var modifiedDuration  = require('../src').modifiedDuration;
